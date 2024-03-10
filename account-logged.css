@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+
+.amount-div {
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(28, 27, 27);
+    border: 4px outset rgb(28, 27, 27);
+    border-radius: 30px;
+    height: 270px;
+    width: 45%;
+    
+}
+
+.general-div {
+    height: 485px;
+    width: 100%;
+    background: rgb(86,79,82);
+    background: radial-gradient(circle, rgba(86,79,82,1) 0%, rgba(19,18,18,0.9726015406162465) 92%);
+}
+
+.div-greeting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greeting-content {
+    padding: 15px;
+    color: white;
+    width: 100%;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.amount-div >* {
+    color: white;
+    margin: 0;
+    
+}
+
+.amount-div h4 {
+    margin-top: 20px;
+    margin-left: 30px ;
+    font-size: 20px;
+    
+}
+
+.amount-div p {
+    /* background-color: blueviolet; */
+    margin-top: 15px;
+    margin-left: 30px ;
+    font-size: 50px;
+    
+}
+
+.div-buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+.button-add, .button-remove {
+    width: 180px;
+    height: 80px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border: 4px outset white;
+    border-radius: 17px;
+    background-color:rgb(59, 56, 56);
+    color: white;
+    font-size: 20px;
+}
+
+.div-input-ingresar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    
+}
+
+.input-ingresar {
+    
+    width: 50%;
+}
+
+

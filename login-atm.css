@@ -1,0 +1,58 @@
+
+.div-inputs {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 45px;
+    background-color: rgb(28, 27, 27);
+    border: 4px outset rgb(28, 27, 27);
+    border-radius: 30px;
+    height: 200px;
+    width: 80%;
+    
+}
+
+.general-div {
+    height: 485px;
+    width: 100%;
+    background: rgb(86,79,82);
+    background: radial-gradient(circle, rgba(86,79,82,1) 0%, rgba(19,18,18,0.9726015406162465) 92%);
+}
+
+.div-inputs h2 {
+    color: white;
+    text-shadow: 1px 5px 0px black;
+}
+
+.div-user, .div-pass{
+    height: 30px;
+    width: 80%;
+    margin: 8px;
+    /* background-color: aqua; */
+}
+
+/* .div-user {
+    margin-top: 50px;
+} */
+
+.input-user, .input-pass {
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 3px outset gray;
+    border-radius: 30px;
+}
+
+.login-button {
+    margin: 8px;
+    width: 100px;
+    height: 30px;
+    border: 2px outset white;
+    border-radius: 15px;
+    background-color:rgb(28, 27, 27);
+    color: white;
+    
+}

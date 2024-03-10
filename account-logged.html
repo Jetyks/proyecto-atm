@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu cuenta</title>
+    <!-- estilos generales y del header -->
+    <link rel="stylesheet" href="atm.css">
+    <!-- estilos especificos -->
+    <link rel="stylesheet" href="account-logged.css">
+    <!-- fuente de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-header">
+            <div class="nav-header-wrapper">
+                <h2>SaferBank</h2>
+                <img class="logo-img" src="bank-logo.jpeg" alt="">
+            </div>
+        </nav>
+    </header>
+    <div class="general-div">
+        <div class="div-greeting">
+            <div class="greeting-content"><h2>Hola, <span id="nameUser">Nombre</span></h2></div>
+        </div>
+        <div class="main-card">
+            <div class="amount-div">
+                <h4 id="text-saldo-actual">Su saldo actual :</h4>
+                <p id="p-saldo">$<span>900</span></p>
+                <div class="div-input-ingresar">
+                    <input class="input-ingresar" type="text">
+                </div>
+                <div class="div-buttons">
+                    <button id="ingresar" onclick="ingresarDinero ()" class="button-add">Ingresar</button>
+                    <button id="retirar" onclick="retirarDinero ()" class="button-remove">Retirar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
