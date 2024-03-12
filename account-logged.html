@@ -26,17 +26,33 @@
         <div class="div-greeting">
             <div class="greeting-content"><h2>Hola, <span id="nameUser">Nombre</span></h2></div>
         </div>
-        <div class="main-card">
+        <div id="main-card" class="main-card">
             <div class="amount-div">
                 <h4 id="text-saldo-actual">Su saldo actual :</h4>
-                <p id="p-saldo">$<span>900</span></p>
-                <div class="div-input-ingresar">
+                <p id="p-saldo">$<span id="monto-inicial">900</span></p>
+                <!-- <div class="div-input-ingresar">
                     <input class="input-ingresar" type="text">
-                </div>
+                </div> -->
                 <div class="div-buttons">
                     <button id="ingresar" onclick="ingresarDinero ()" class="button-add">Ingresar</button>
                     <button id="retirar" onclick="retirarDinero ()" class="button-remove">Retirar</button>
                 </div>
+            </div>
+        </div>
+        <div id="ingresar-card" class="tarjeta-ingresar">
+            <h4>¿Que cantidad deseas ingresar?</h4>
+            <input id="numero-ingresar" class="ingresar-input" type="number">
+            <div class="div-ingresar-buttons">
+                <button id="regresar-button" onclick="regresar ()" class="regresar">Regresar</button>
+                <button id="confirmar-button" onclick="añadirDinero ()" class="confirmar">Confirmar</button>
+            </div>
+        </div>
+        <div id="retirar-card" class="tarjeta-retirar">
+            <h4>¿Que cantidad deseas retirar?</h4>
+            <input id="numero-retirar" class="retirar-input" type="number">
+            <div class="div-ingresar-buttons">
+                <button onclick="regresar ()" class="regresar">Regresar</button>
+                <button onclick="restarDinero ()" class="confirmar">Confirmar</button>
             </div>
         </div>
     </div>

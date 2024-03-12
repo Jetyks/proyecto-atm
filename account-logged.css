@@ -18,7 +18,7 @@
 }
 
 .general-div {
-    height: 485px;
+    height: 580px;
     width: 100%;
     background: rgb(86,79,82);
     background: radial-gradient(circle, rgba(86,79,82,1) 0%, rgba(19,18,18,0.9726015406162465) 92%);
@@ -47,7 +47,7 @@
 .amount-div h4 {
     margin-top: 20px;
     margin-left: 30px ;
-    font-size: 20px;
+    font-size: 21px;
     
 }
 
@@ -80,7 +80,7 @@
     font-size: 20px;
 }
 
-.div-input-ingresar {
+/* .div-input-ingresar {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -92,6 +92,82 @@
 .input-ingresar {
     
     width: 50%;
+} */
+
+.tarjeta-ingresar {
+    display:none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(28, 27, 27);
+    border: 4px outset rgb(28, 27, 27);
+    border-radius: 30px;
+    height: 270px;
+    width: 45%;
+    /* height: 400px; */
+}
+.tarjeta-retirar {
+    display:none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(28, 27, 27);
+    border: 4px outset rgb(28, 27, 27);
+    border-radius: 30px;
+    height: 270px;
+    width: 45%;
+    
+}
+
+.regresar, .confirmar {
+    width: 150px;
+    height: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border: 4px outset white;
+    border-radius: 17px;
+    background-color:rgb(59, 56, 56);
+    color: white;
+    font-size: 20px;
 }
 
 
+.tarjeta-ingresar h4 {
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.tarjeta-retirar h4 {
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.div-ingresar-buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    /* background-color: green; */
+}
+
+.ingresar-input {
+    color: rgb(24, 154, 24);
+    font-size: 25px;
+    margin-top: 20px;
+    height: 100px;
+    width: 50%;
+}
+.retirar-input {
+    color: rgb(243, 36, 36);
+    font-size: 25px;
+    margin-top: 20px;
+    height: 100px;
+    width: 50%;
+}
