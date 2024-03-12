@@ -28,17 +28,20 @@
             </nav>
         </header>
         <div class="general-div">
-            <div class="div-inputs">
-                <h2>Iniciar sesión</h2>
-                <div class="div-user">
-                    <input id="inputUser" class="input-user" type="text" placeholder="Usuario">
+            <form id="loginForm">
+                <div class="div-inputs">
+                    <label>Iniciar sesión</label>
+                    <div class="div-user">
+                        <input id="inputUser" class="input-user" type="text" placeholder="Usuario">
+                    </div>
+                    <div class="div-pass">
+                        <input id="inputPass" class="input-pass" type="text" class="form-control" placeholder="Contraseña">
+                    </div>
+                    <input type="submit" id="submitButton" class="submit-button" value="Continuar"></input>
                 </div>
-                <div class="div-pass">
-                    <input id="inputPass" class="input-pass" type="text" class="form-control" placeholder="Contraseña">
-                </div>
-                <button id="loginButton" class="login-button" >Continuar</button>
-            </div>
+            </form>
         </div>
-        <script src="login.js"></script>
+        <script src="usuarios.js"></script>
+        <!-- <script src="login.js"></script> -->
 </body>
 </html>
